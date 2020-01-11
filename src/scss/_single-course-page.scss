@@ -1,0 +1,21 @@
+@import "./variables";
+.course-page {
+  max-width: 70vw;
+  margin: 2em auto;
+  .course-items-wrapper {
+    display: flex;
+    justify-content: space-around;
+    margin: 2em 0;
+  }
+  .course-item {
+    padding: 0.5em 2em;
+    color: $black;
+    background-color: $light-grey;
+    border-radius: 20px;
+    text-transform: capitalize;
+    &.active {
+      background-color: $black;
+      color: $white;
+    }
+  }
+}

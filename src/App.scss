@@ -1,0 +1,22 @@
+@import "./scss/variables";
+@import "./scss/card";
+@import "./scss/homepage";
+@import "./scss/single-course-page";
+@import "./scss/submenu";
+@import "./scss/outlined-card";
+@import "./scss/cart";
+
+* {
+  padding: 0;
+  margin: 0;
+}
+html,
+body,
+#root {
+  min-height: 100% !important;
+  height: 100%;
+}
+
+body {
+  text-align: center;
+}

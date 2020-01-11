@@ -1,0 +1,23 @@
+@import "./variables";
+.card-item {
+  .image-wrapper {
+    img {
+      width: $image-width;
+      height: $image-height;
+      object-fit: cover;
+      border-radius: 25px;
+    }
+  }
+  .card-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .item-price,
+  .card-title {
+    padding: 1em;
+  }
+  .item-rating {
+    padding: 0 0 0 1em;
+  }
+}
