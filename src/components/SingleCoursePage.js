@@ -1,5 +1,6 @@
 import React from "react";
 import { useSelector, useDispatch } from "react-redux";
+import { Link } from "react-router-dom";
 
 import { onCourseChange } from "../store/Food";
 import SubmenuItem from "./SubmenuItem";
@@ -55,9 +56,16 @@ const SingleCoursePage = () => {
 
   return (
     <div className="course-page">
+      <div className="back-btn-container">
+        <Link to="/">
+          <button className="back-button">Back</button>
+        </Link>
+      </div>
       <div className="course-items-wrapper"> {renderCourses(courses)}</div>
 
-      <div>{renderSubCourses(courses, subCategory)}</div>
+      <div className="sub-category-wrapper">
+        {renderSubCourses(courses, subCategory)}
+      </div>
     </div>
   );
 };

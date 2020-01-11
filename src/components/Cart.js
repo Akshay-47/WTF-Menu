@@ -39,11 +39,18 @@ const Cart = () => {
           <div className={"overlay " + (cartIsOpen ? "active" : "")}>
             {cartIsOpen && (
               <div className="visible-when-active">
-                <button onClick={() => dispatch(toggleCart())}>Close</button>
+                <div className="back-btn-container">
+                  <button
+                    className="back-button"
+                    onClick={() => dispatch(toggleCart())}
+                  >
+                    Close
+                  </button>
+                </div>
                 <div className="item-wrapper">{renderCartItems(cartItems)}</div>
                 <hr />
                 <div className="cart-total">
-                  Cart Total: {calculateTotal(cartItems)}
+                  <h1> Cart Total: {calculateTotal(cartItems)}</h1>
                 </div>
               </div>
             )}

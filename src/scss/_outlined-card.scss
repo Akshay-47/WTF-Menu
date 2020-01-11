@@ -1,9 +1,8 @@
 @import "./variables";
 .outlined-card {
-  padding: 1em;
-  border: 1px solid black;
-  border-radius: 50%;
-  a {
-    text-decoration: none;
-  }
+  padding: 0.5em 2em;
+  color: $black;
+  background-color: #eceff1;
+  border-radius: 20px;
+  text-transform: capitalize;
 }

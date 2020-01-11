@@ -11,11 +11,12 @@
   .card-footer {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
   }
   .item-price,
   .card-title {
     padding: 1em;
+    height: 2em;
   }
   .item-rating {
     padding: 0 0 0 1em;

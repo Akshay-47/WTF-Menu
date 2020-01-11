@@ -2,10 +2,22 @@
 .course-page {
   max-width: 70vw;
   margin: 2em auto;
+  .back-btn-container {
+    height: 2em;
+    display: flex;
+    justify-content: flex-start;
+    .back-button {
+      padding: 1em;
+      border-radius: 5px;
+    }
+  }
   .course-items-wrapper {
     display: flex;
     justify-content: space-around;
     margin: 2em 0;
+  }
+  .sub-category-wrapper {
+    margin-bottom: 15em;
   }
   .course-item {
     padding: 0.5em 2em;

@@ -2,7 +2,11 @@
 
 .cart {
   max-width: 70vw;
-  margin: 2em auto;
+  margin: 2em auto 0 auto;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
 .my-plate {
   width: 100%;
@@ -13,6 +17,20 @@
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+}
+.visible-when-active {
+  max-width: 70vh;
+  margin: 0 auto;
+  .back-btn-container {
+    height: 2em;
+    display: flex;
+    .back-button {
+      padding: 1em;
+      display: flex;
+      align-self: center;
+      margin-top: 1em;
+    }
+  }
 }
 .item-wrapper {
   .card-item {
@@ -41,6 +59,7 @@
     right: 5%;
   }
   .card-footer {
+    justify-content: flex-start;
     .card-btn {
       position: absolute;
       left: 100%;
@@ -60,6 +79,7 @@
   bottom: 0;
   background-color: $white; /* Black background with opacity */
   z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+  overflow: scroll;
   cursor: pointer;
   &.active {
     display: block;

@@ -22,8 +22,12 @@ const HomePage = () => {
   };
 
   return (
-    <div>
-      <h1>WTF Menu</h1>
+    <div className="home-page">
+      <div className="heading">
+        <h1>WTF Menu</h1>
+        <small>(Where's The Food MENU)</small>
+      </div>
+
       <br />
       <h2>Today's Special</h2>
       <div className="card-wrapper">{renderItems(itemsToDisplay)}</div>
