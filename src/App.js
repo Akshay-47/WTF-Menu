@@ -9,7 +9,7 @@ import "./App.scss";
 
 function App() {
   return (
-    <Router basename="WTF">
+    <Router basename="/WTF">
       <Switch>
         <Route exact path="/" component={HomePage} />
         <Route exact path="/tabs" component={SingleCoursePage} />
