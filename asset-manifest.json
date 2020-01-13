@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/WTF-Menu/static/css/main.0e67a8b0.chunk.css",
+    "main.css": "/WTF-Menu/static/css/main.61c740d5.chunk.css",
     "main.js": "/WTF-Menu/static/js/main.c9fe3133.chunk.js",
     "main.js.map": "/WTF-Menu/static/js/main.c9fe3133.chunk.js.map",
     "runtime-main.js": "/WTF-Menu/static/js/runtime-main.6b8d483e.js",
@@ -8,15 +8,15 @@
     "static/js/2.134f1992.chunk.js": "/WTF-Menu/static/js/2.134f1992.chunk.js",
     "static/js/2.134f1992.chunk.js.map": "/WTF-Menu/static/js/2.134f1992.chunk.js.map",
     "index.html": "/WTF-Menu/index.html",
-    "precache-manifest.8624897b69402a31a391ccc4c858cc9f.js": "/WTF-Menu/precache-manifest.8624897b69402a31a391ccc4c858cc9f.js",
+    "precache-manifest.0b488a419ce3dc03ee40765bbac45ac9.js": "/WTF-Menu/precache-manifest.0b488a419ce3dc03ee40765bbac45ac9.js",
     "service-worker.js": "/WTF-Menu/service-worker.js",
-    "static/css/main.0e67a8b0.chunk.css.map": "/WTF-Menu/static/css/main.0e67a8b0.chunk.css.map",
+    "static/css/main.61c740d5.chunk.css.map": "/WTF-Menu/static/css/main.61c740d5.chunk.css.map",
     "static/js/2.134f1992.chunk.js.LICENSE": "/WTF-Menu/static/js/2.134f1992.chunk.js.LICENSE"
   },
   "entrypoints": [
     "static/js/runtime-main.6b8d483e.js",
     "static/js/2.134f1992.chunk.js",
-    "static/css/main.0e67a8b0.chunk.css",
+    "static/css/main.61c740d5.chunk.css",
     "static/js/main.c9fe3133.chunk.js"
   ]
 }
